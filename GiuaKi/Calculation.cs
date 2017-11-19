@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace GiuaKi
 {
-    class Calculation
+   public class Calculation
     {
         private int a;
         private int b;

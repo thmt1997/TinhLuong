@@ -26,3 +26,5 @@ D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Form1.resources
 D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Main.resources
 D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Properties.Resources.resources
 D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.csproj.GenerateResource.Cache
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.csprojResolveAssemblyReference.cache
+D:\Searching\TinhLuong\GiuaKi\bin\Debug\Data.csv
