@@ -25,7 +25,7 @@ namespace GiuaKi
 
         private void button1_Click(object sender, EventArgs e)
         {
-             SqlConnection comn = new SqlConnection(@"Data Source=MT-PC;Initial Catalog=Tester;Integrated Security=True");
+            SqlConnection comn = new SqlConnection(@"Data Source=USER-PC\SQLEXPRESS;Initial Catalog=Tester;Integrated Security=True");
             SqlDataAdapter sda =new SqlDataAdapter("Select count(*) From DangNhap where ID='"+txtID.Text + "'and Pass ='"+txtPass.Text+"'",comn);
             DataTable dt = new DataTable();
             sda.Fill(dt);

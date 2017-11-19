@@ -17,3 +17,13 @@ C:\Users\User\Desktop\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Form1.resource
 C:\Users\User\Desktop\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Main.resources
 C:\Users\User\Desktop\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Properties.Resources.resources
 C:\Users\User\Desktop\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.csproj.GenerateResource.Cache
+D:\Searching\TinhLuong\GiuaKi\bin\Debug\GiuaKi.exe.config
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.exe
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.pdb
+D:\Searching\TinhLuong\GiuaKi\bin\Debug\GiuaKi.exe
+D:\Searching\TinhLuong\GiuaKi\bin\Debug\GiuaKi.pdb
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.csprojResolveAssemblyReference.cache
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Form1.resources
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Main.resources
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.Properties.Resources.resources
+D:\Searching\TinhLuong\GiuaKi\obj\Debug\GiuaKi.csproj.GenerateResource.Cache
