@@ -94,6 +94,24 @@ namespace GiuaKi
 
         }
 
+        private void Main_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            SqlConnection comn1 = new SqlConnection(@"Data Source=USER-PC\SQLEXPRESS;Initial Catalog=Tester;Integrated Security=True");
+            comn1.Open();
+            updateTable();
+            this.Cal();
+            //int heso = Convert.ToInt32(dataGridView1.Rows[Convert.ToInt32(Convert.ToInt32(txtNhap.Text)-1)].Cells["HeSo"].Value.ToString());
+            //label3.Text = (heso * Convert.ToInt32(txtLuong.Text)).ToString();
+            SqlCommand cmd = new SqlCommand("UPDATE NhanVien SET Luong ='" + 0 + "' WHERE ID='" + txtNhap.Text + "'", comn1);
+            cmd.ExecuteNonQuery();
+            comn1.Close();
+        }
+
         
     }
 }

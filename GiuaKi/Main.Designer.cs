@@ -36,12 +36,13 @@
             this.txtLuong = new System.Windows.Forms.TextBox();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
-            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.button3 = new System.Windows.Forms.Button();
+            this.ID = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HoTen = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.SoDienThoai = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HinhThuc = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.HeSo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Luong = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -81,12 +82,12 @@
             // 
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.Column1,
-            this.Column2,
-            this.Column3,
-            this.Column4,
-            this.Column5,
-            this.Column6});
+            this.ID,
+            this.HoTen,
+            this.SoDienThoai,
+            this.HinhThuc,
+            this.HeSo,
+            this.Luong});
             this.dataGridView1.Location = new System.Drawing.Point(12, 69);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(640, 150);
@@ -104,11 +105,13 @@
             // 
             // txtLuong
             // 
-            this.txtLuong.Location = new System.Drawing.Point(286, 241);
+            this.txtLuong.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtLuong.Location = new System.Drawing.Point(286, 244);
             this.txtLuong.Multiline = true;
             this.txtLuong.Name = "txtLuong";
-            this.txtLuong.Size = new System.Drawing.Size(100, 38);
+            this.txtLuong.Size = new System.Drawing.Size(100, 35);
             this.txtLuong.TabIndex = 5;
+            this.txtLuong.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // button2
             // 
@@ -124,53 +127,67 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(312, 259);
+            this.label3.ForeColor = System.Drawing.Color.Aqua;
+            this.label3.Location = new System.Drawing.Point(108, 297);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(0, 13);
             this.label3.TabIndex = 7;
+            this.label3.Visible = false;
             // 
-            // Column1
+            // button3
             // 
-            this.Column1.DataPropertyName = "ID";
-            this.Column1.HeaderText = "ID";
-            this.Column1.Name = "Column1";
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button3.Location = new System.Drawing.Point(563, 285);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(89, 35);
+            this.button3.TabIndex = 8;
+            this.button3.Text = "Xóa";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
-            // Column2
+            // ID
             // 
-            this.Column2.DataPropertyName = "HoTen";
-            this.Column2.HeaderText = "HỌ TÊN";
-            this.Column2.Name = "Column2";
+            this.ID.DataPropertyName = "ID";
+            this.ID.HeaderText = "ID";
+            this.ID.Name = "ID";
             // 
-            // Column3
+            // HoTen
             // 
-            this.Column3.DataPropertyName = "SoDienThoai";
-            this.Column3.HeaderText = "SĐT";
-            this.Column3.Name = "Column3";
+            this.HoTen.DataPropertyName = "HoTen";
+            this.HoTen.HeaderText = "HỌ TÊN";
+            this.HoTen.Name = "HoTen";
             // 
-            // Column4
+            // SoDienThoai
             // 
-            this.Column4.DataPropertyName = "HinhThuc";
-            this.Column4.HeaderText = "HÌNH THỨC";
-            this.Column4.Name = "Column4";
+            this.SoDienThoai.DataPropertyName = "SoDienThoai";
+            this.SoDienThoai.HeaderText = "SĐT";
+            this.SoDienThoai.Name = "SoDienThoai";
             // 
-            // Column5
+            // HinhThuc
             // 
-            this.Column5.DataPropertyName = "HeSo";
-            this.Column5.HeaderText = "HỆ SỐ";
-            this.Column5.Name = "Column5";
+            this.HinhThuc.DataPropertyName = "HinhThuc";
+            this.HinhThuc.HeaderText = "HÌNH THỨC";
+            this.HinhThuc.Name = "HinhThuc";
             // 
-            // Column6
+            // HeSo
             // 
-            this.Column6.DataPropertyName = "Luong";
-            this.Column6.HeaderText = "LƯƠNG";
-            this.Column6.Name = "Column6";
+            this.HeSo.DataPropertyName = "HeSo";
+            this.HeSo.HeaderText = "HỆ SỐ";
+            this.HeSo.Name = "HeSo";
+            // 
+            // Luong
+            // 
+            this.Luong.DataPropertyName = "Luong";
+            this.Luong.HeaderText = "LƯƠNG";
+            this.Luong.Name = "Luong";
             // 
             // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.ClientSize = new System.Drawing.Size(664, 309);
+            this.ClientSize = new System.Drawing.Size(664, 325);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.txtLuong);
@@ -181,6 +198,7 @@
             this.Controls.Add(this.label1);
             this.Name = "Main";
             this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Main_FormClosing);
+            this.Load += new System.EventHandler(this.Main_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -197,11 +215,12 @@
         private System.Windows.Forms.TextBox txtLuong;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn ID;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HoTen;
+        private System.Windows.Forms.DataGridViewTextBoxColumn SoDienThoai;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HinhThuc;
+        private System.Windows.Forms.DataGridViewTextBoxColumn HeSo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Luong;
     }
 }
