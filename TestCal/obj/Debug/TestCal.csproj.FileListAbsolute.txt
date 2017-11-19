@@ -1,0 +1,8 @@
+D:\Searching\TinhLuong\TestCal\bin\Debug\TestCal.dll
+D:\Searching\TinhLuong\TestCal\bin\Debug\TestCal.pdb
+D:\Searching\TinhLuong\TestCal\obj\Debug\TestCal.csprojResolveAssemblyReference.cache
+D:\Searching\TinhLuong\TestCal\obj\Debug\TestCal.dll
+D:\Searching\TinhLuong\TestCal\obj\Debug\TestCal.pdb
+D:\Searching\TinhLuong\TestCal\bin\Debug\GiuaKi.exe
+D:\Searching\TinhLuong\TestCal\bin\Debug\GiuaKi.pdb
+D:\Searching\TinhLuong\TestCal\bin\Debug\Data.csv

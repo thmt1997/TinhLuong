@@ -1,0 +1,71 @@
+19/11/2017 4:12:07 PM	This log contains information about the import schema operation into project 'DbTest' on computer 'USER-PC' by user 'User'.
+19/11/2017 4:12:08 PM	Import of database schema has started.
+19/11/2017 4:12:17 PM	Gathering database options
+19/11/2017 4:12:17 PM	Gathering users
+19/11/2017 4:12:17 PM	Gathering roles
+19/11/2017 4:12:17 PM	Gathering application roles
+19/11/2017 4:12:17 PM	Gathering role memberships
+19/11/2017 4:12:17 PM	Gathering filegroups
+19/11/2017 4:12:17 PM	Gathering full-text catalogs
+19/11/2017 4:12:17 PM	Gathering assemblies
+19/11/2017 4:12:17 PM	Gathering certificates
+19/11/2017 4:12:17 PM	Gathering asymmetric keys
+19/11/2017 4:12:17 PM	Gathering symmetric keys
+19/11/2017 4:12:17 PM	Gathering encrypted symmetric keys
+19/11/2017 4:12:17 PM	Gathering schemas
+19/11/2017 4:12:17 PM	Gathering XML schema collections
+19/11/2017 4:12:17 PM	Gathering user-defined data types
+19/11/2017 4:12:17 PM	Gathering user-defined types
+19/11/2017 4:12:17 PM	Gathering table types
+19/11/2017 4:12:17 PM	Gathering unique keys for table types
+19/11/2017 4:12:17 PM	Gathering primary keys for table types
+19/11/2017 4:12:17 PM	Gathering check constraints for table types
+19/11/2017 4:12:17 PM	Gathering default constraints for table types
+19/11/2017 4:12:17 PM	Gathering partition functions
+19/11/2017 4:12:17 PM	Gathering partition schemes
+19/11/2017 4:12:17 PM	Gathering functions
+19/11/2017 4:12:17 PM	Gathering encrypted functions
+19/11/2017 4:12:18 PM	Gathering aggregates
+19/11/2017 4:12:18 PM	Gathering procedures
+19/11/2017 4:12:18 PM	Gathering encrypted procedures
+19/11/2017 4:12:18 PM	Gathering tables
+19/11/2017 4:12:18 PM	Gathering primary keys
+19/11/2017 4:12:18 PM	Gathering unique constraints
+19/11/2017 4:12:18 PM	Gathering foreign keys
+19/11/2017 4:12:18 PM	Gathering default constraints
+19/11/2017 4:12:18 PM	Gathering check constraints
+19/11/2017 4:12:18 PM	Gathering views
+19/11/2017 4:12:18 PM	Gathering encrypted views
+19/11/2017 4:12:18 PM	Gathering indexes
+19/11/2017 4:12:18 PM	Gathering statistics
+19/11/2017 4:12:18 PM	Gathering full-text index stoplists
+19/11/2017 4:12:18 PM	Gathering full-text indexes
+19/11/2017 4:12:18 PM	Gathering spatial indexes
+19/11/2017 4:12:18 PM	Gathering XML indexes
+19/11/2017 4:12:18 PM	Gathering encrypted triggers
+19/11/2017 4:12:18 PM	Gathering triggers
+19/11/2017 4:12:18 PM	Gathering encrypted and clr ddl triggers
+19/11/2017 4:12:18 PM	Gathering ddl triggers
+19/11/2017 4:12:18 PM	Gathering synonyms
+19/11/2017 4:12:18 PM	Gathering defaults
+19/11/2017 4:12:18 PM	Gathering data constraint uddt bindings
+19/11/2017 4:12:18 PM	Gathering rules
+19/11/2017 4:12:18 PM	Gathering data constraint uddt bindings
+19/11/2017 4:12:18 PM	Gathering message types
+19/11/2017 4:12:18 PM	Gathering queues
+19/11/2017 4:12:18 PM	Gathering contracts
+19/11/2017 4:12:18 PM	Gathering services
+19/11/2017 4:12:18 PM	Gathering event notifications
+19/11/2017 4:12:18 PM	Gathering remote service bindings
+19/11/2017 4:12:18 PM	Gathering broker priorities
+19/11/2017 4:12:18 PM	Gathering signatures
+19/11/2017 4:12:18 PM	Gathering data compression options
+19/11/2017 4:12:18 PM	Gathering extended properties
+19/11/2017 4:12:18 PM	Gathering credentials
+19/11/2017 4:12:18 PM	Gathering logins
+19/11/2017 4:12:18 PM	Gathering server audits
+19/11/2017 4:12:20 PM	Scanning project for duplicate elements
+19/11/2017 4:12:20 PM	Finished duplicate element processing
+19/11/2017 4:12:20 PM	Finished importing database.
+19/11/2017 4:12:20 PM	A summary of the import was saved to the following location: D:\Searching\TinhLuong\DbTest\Import Schema Logs\DbTest_20171119091207.log
+19/11/2017 4:12:21 PM	Click Finish to continue...

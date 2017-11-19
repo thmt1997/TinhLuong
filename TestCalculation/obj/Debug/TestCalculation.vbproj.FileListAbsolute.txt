@@ -1,0 +1,11 @@
+D:\Searching\TinhLuong\TestCalculation\bin\Debug\TestCalculation.dll.config
+D:\Searching\TinhLuong\TestCalculation\bin\Debug\TestCalculation.dll
+D:\Searching\TinhLuong\TestCalculation\bin\Debug\TestCalculation.pdb
+D:\Searching\TinhLuong\TestCalculation\bin\Debug\TestCalculation.xml
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.vbprojResolveAssemblyReference.cache
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.Resources.resources
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.vbproj.GenerateResource.Cache
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.dll
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.xml
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.pdb
+D:\Searching\TinhLuong\TestCalculation\obj\Debug\TestCalculation.TestNhanVienChinhThuc.resources
