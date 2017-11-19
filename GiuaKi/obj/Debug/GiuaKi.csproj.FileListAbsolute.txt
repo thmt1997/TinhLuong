@@ -1,0 +1,9 @@
+E:\MT\GiuaKi\GiuaKi\bin\Debug\GiuaKi.exe.config
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.Form1.resources
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.Properties.Resources.resources
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.csproj.GenerateResource.Cache
+E:\MT\GiuaKi\GiuaKi\bin\Debug\GiuaKi.exe
+E:\MT\GiuaKi\GiuaKi\bin\Debug\GiuaKi.pdb
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.exe
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.pdb
+E:\MT\GiuaKi\GiuaKi\obj\Debug\GiuaKi.Main.resources
